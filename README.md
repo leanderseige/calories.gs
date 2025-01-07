@@ -4,7 +4,7 @@ Are you also annoyed by having to laboriously calculate the calorie value of a s
 
 ```=CALORIES("One Croissant and a Café au lait.")``` returns ```310```
 
-The script may return varying values for the same prompt. However, it still seems to be a good estimation of what the reality might be.
+ChatGPT may return varying values for the same prompt. However, it still seems to be a good estimation of what the reality might be.
 
 ## How To Use
 
