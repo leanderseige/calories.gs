@@ -14,6 +14,8 @@ ChatGPT may return varying values for the same prompt. However, it still seems t
 
 2. Insert code and your OpenAI API key
 
+Don't forget to press the Save-Button.
+
 ![Insert code and your OpenAI API key](screenshot2.png)
 
 3. Use the new CALORIES function!
