@@ -1,6 +1,6 @@
 // Funktion zur Ermittlung der Kalorien mithilfe von ChatGPT/OpenAI mit Retry und Cache
 function getCaloriesWithCache(foodName) {
-  const apiKey = "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"; // OpenAI API-Key hier einfügen
+  const apiKey = "YOUR OPENAI API KEY"; // OpenAI API-Key hier einfügen
   const url = "https://api.openai.com/v1/chat/completions";
   const cache = CacheService.getScriptCache(); // Cache-Instanz erstellen
   const cachedCalories = cache.get(foodName); // Antwort aus dem Cache abrufen
