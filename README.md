@@ -1,10 +1,8 @@
 # kalorien_ai
 
-Are you also annoyed by having to laboriously calculate the calorie value of a snack or meal? This is a script for Google Sheets that calculates a suitable kcal number for the description of a dish or meal. It implements a new function CALORIES() that takes a written description of a meal as input and returns the estimated kcal value by asking OpenAI's ChatGPT for it.
+Are you also annoyed by having to laboriously calculate the calorie value of a snack or meal? This is a script for Google Sheets that calculates a suitable kcal number for the description of a dish or meal. It implements a new function CALORIES() that takes a written description of a meal as input and returns the estimated kcal value by asking OpenAI's ChatGPT for it. Since ChatGPT accepts multilingual input, this script does too.
 
 ```=CALORIES("One Croissant and a Café au lait.")``` returns ```310```
-
-As ChatGPT accepts multilingual input, this script does too.
 
 The script may return varying values for the same prompt. However, it still seems to be a good estimation of what the reality might be.
 
